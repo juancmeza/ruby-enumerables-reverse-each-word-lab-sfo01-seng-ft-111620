@@ -7,8 +7,8 @@ def reverse_each_word(str)
       new_word.unshift(word[i])
     end
     new_word = new_word.join("")
-    new_word
+    word = new_word
+    binding.pry
   end
-  binding.pry
   words = words.join(" ")
 end     

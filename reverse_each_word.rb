@@ -10,5 +10,4 @@ def reverse_each_word(str)
     word = new_word
     binding.pry
   end
-  words = words.join(" ")
 end     

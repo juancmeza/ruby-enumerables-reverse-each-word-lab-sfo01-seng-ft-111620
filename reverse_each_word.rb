@@ -9,4 +9,5 @@ def reverse_each_word(str)
     new_word = new_word.join("")
     word = new_word
   end
+  words.join(" ")
 end     
